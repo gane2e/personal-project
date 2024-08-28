@@ -1,0 +1,19 @@
+package work;
+
+public class Cargopla extends Plane{
+	
+	public Cargopla(){}
+	public Cargopla(String planeName,  int fuelSize){
+		super(planeName,fuelSize);
+	}
+
+	@Override
+	public void flight(int distance){
+		while(distance%10 == 0) {
+			setFuelSize(getFuelSize()-50);
+		
+		} 
+		
+	} 
+
+}

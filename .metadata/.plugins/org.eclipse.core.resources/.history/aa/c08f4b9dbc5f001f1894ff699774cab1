@@ -1,0 +1,25 @@
+package ex01;
+
+
+public class Random {
+
+	public static void main(String[] args) {
+
+		
+			int num = (int)(Math.random()*10)+1;
+
+
+			if(num == 7) {
+				System.out.println("당첨!");
+			} else {
+				System.out.println("꽝");
+			}
+			
+			
+		
+
+	
+
+	}
+
+}

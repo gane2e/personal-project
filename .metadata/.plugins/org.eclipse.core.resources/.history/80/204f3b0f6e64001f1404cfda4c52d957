@@ -1,0 +1,13 @@
+package emp;
+
+public class Company {
+
+	public static void main(String[] args) {
+
+		Employee[] employee = new Employee[2];
+		employee[0] = new Secretary("Duke", 1, "secretary", 800);
+		employee[1] = new Sales("Tuxi", 2, "sales", 1200);
+		
+	}
+
+}

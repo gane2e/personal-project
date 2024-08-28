@@ -1,0 +1,12 @@
+package ex01;
+
+public class Student {
+	
+	String department;//학과
+	String classof;//학번
+	
+	void info() {
+		System.out.println(department + classof);
+	}
+
+}

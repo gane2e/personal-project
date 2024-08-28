@@ -1,0 +1,19 @@
+package mobile;
+
+public abstract class Mobile {
+
+	private String mobileName;
+	private int betterySize;
+	private String osType;
+	
+	public Mobile(){}
+	public Mobile(String mobileName,  int betterySize, String osType){}
+	
+	public void operate(int time) {}
+	public void charge(int time) {}
+
+	public String getMobileName() {
+		return mobileName;
+	}
+	
+}

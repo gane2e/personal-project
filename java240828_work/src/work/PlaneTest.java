@@ -1,0 +1,41 @@
+package work;
+
+public class PlaneTest {
+
+	public static void main(String[] args) {
+
+		Plane[] plane = new Plane[2];
+		
+		plane[0] = new Airplane("L747", 1000);
+		plane[1] = new Cargopla("C40", 1000);
+		
+		PlaneTest.printInfo(plane);
+		
+		
+		//거리 100씩 운항 후 정보출력
+		plane[0].flight(100);
+		plane[1].flight(100);
+		
+		PlaneTest.printInfo(plane);
+		
+		//주유 200씩 충전 후 정보 출력
+		plane[0].refuel(200);
+		plane[1].refuel(200);		
+		
+		PlaneTest.printInfo(plane);
+
+		
+	}
+	public static void printInfo(Plane[] list) {
+		
+		System.out.println();
+		System.out.println("Plane    fuelSize");
+		System.out.println("-----------------");
+		
+		for(int i=0; i<list.length; i++) {
+			System.out.printf
+			("%s\t %d\n", list[i].getPlaneName(), list[i].getFuelSize());	
+		}
+	}
+
+}

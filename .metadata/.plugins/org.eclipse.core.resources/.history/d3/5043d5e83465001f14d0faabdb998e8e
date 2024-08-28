@@ -1,0 +1,25 @@
+package work;
+
+public class PlaneTest {
+
+	public static void main(String[] args) {
+
+//		Airplane airplane = new Airplane("L747", 1000);
+//		Cargopla cargopla = new Cargopla("C40", 1000);
+		
+		Plane[] plane = new Plane[2];
+		plane[0] = new Airplane("L747", 1000);
+		plane[1] = new Cargopla("C40", 1000);
+		
+		PlaneTest.printInfo(plane);
+	}
+	public static void printInfo(Plane[] list) {
+		
+		System.out.println("Plane     fuelSize");
+		
+		for(int i=0; i<list.length; i++) {
+			System.out.println(list);	
+		}
+	}
+
+}

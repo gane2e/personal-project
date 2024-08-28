@@ -1,0 +1,13 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		String phoneNumber = "01012345678";
+				boolean isMobile = PhoneNumberValidator.isHpType(phoneNumber);
+				
+		 System.out.println("Is valid mobile number: " + isMobile);
+				
+	}
+
+}

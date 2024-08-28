@@ -1,0 +1,21 @@
+//두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+
+		int apple = 5;
+		int pear = 6;
+		int orange = 7;
+		int sum = apple+pear+orange;
+		float avg = sum/24f;
+		
+		System.out.println("하루 총 생산량 : " + sum);
+		System.out.println("시간당 생산 갯수 : " + avg);
+
+	}
+
+}

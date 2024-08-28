@@ -1,0 +1,12 @@
+package ex01;
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+		
+		Student s1 = new Student("얍", 20);
+		s1.info();
+		
+	}
+
+}

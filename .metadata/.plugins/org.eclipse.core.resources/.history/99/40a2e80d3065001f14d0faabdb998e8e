@@ -1,0 +1,10 @@
+package work;
+
+public class Cargopla extends Plane{
+	
+	public Cargopla(){}
+	public Cargopla(String planeName,  int fuelSize){
+		super(planeName,fuelSize);
+	}
+
+}
